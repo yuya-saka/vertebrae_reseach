@@ -31,6 +31,9 @@ dependencies = [
     "connected-components-3d>=3.12.0",
     "cupy-cuda12x>=13.0.0",
     "numba>=0.59.0",
+    "ultralytics>=8.0.0",
+    "albumentations>=1.4.0",
+    "seaborn>=0.12.0",
 ]
 
 [tool.uv]
