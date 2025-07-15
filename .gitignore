@@ -1,0 +1,36 @@
+# ① まず「すべて無視」
+*
+
+# ② ただし Sakaguchi_file/ 以下は追跡対象に
+!Sakaguchi_file/
+!Sakaguchi_file/**
+!uv.lock
+!pyproject.toml
+!README.md
+!YOLO/
+!YOLO/**
+!CLAUDE.md
+!.gitignore
+
+# ③ 重いデータや不要ファイルを無視
+*.nii
+*.nii.gz
+*.txt
+#.lock
+#.toml
+*.png
+*.csv
+*.pth
+wandb/
+prior_YOLO_file/
+
+# ④ Python 関連の自動生成ファイル等を無視
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# ⑤ 仮想環境フォルダを無視
+.venv
