@@ -1,0 +1,17 @@
+2025-07-17 18:12:57,846 - INFO - 設定ファイル読み込み完了: /mnt/nfs1/home/yamamoto-hiroto/research/vertebrae_saka/Sakaguchi_file/YOLO_datasets/vertebrae_fracture/configs/vertebrae_fracture.yaml
+2025-07-17 18:13:00,182 - INFO - YOLOv8モデル初期化: yolov8m.pt
+2025-07-17 18:13:00,182 - INFO - 出力ディレクトリ: runs/train/20250717_181300
+2025-07-17 18:13:19,386 - INFO - Weights & Biases初期化完了
+2025-07-17 18:13:56,995 - INFO - YOLOv8モデル学習開始
+2025-07-17 18:23:03,957 - INFO - 設定ファイル読み込み完了: /mnt/nfs1/home/yamamoto-hiroto/research/vertebrae_saka/Sakaguchi_file/YOLO_datasets/vertebrae_fracture/configs/vertebrae_fracture.yaml
+2025-07-17 18:23:04,114 - INFO - YOLOv8モデル初期化: yolov8m.pt
+2025-07-17 18:23:04,115 - INFO - 出力ディレクトリ: runs/train/20250717_182304
+2025-07-17 18:23:11,102 - INFO - Weights & Biases初期化完了
+2025-07-17 18:28:16,517 - INFO - 設定ファイル読み込み完了: /mnt/nfs1/home/yamamoto-hiroto/research/vertebrae_saka/Sakaguchi_file/YOLO_datasets/vertebrae_fracture/configs/vertebrae_fracture.yaml
+2025-07-17 18:28:16,621 - INFO - YOLOv8モデル初期化: yolov8m.pt
+2025-07-17 18:28:16,622 - INFO - 出力ディレクトリ: runs/train/20250717_182816
+2025-07-17 18:28:29,570 - INFO - Weights & Biases初期化完了
+2025-07-17 18:37:08,432 - INFO - 設定ファイル読み込み完了: /mnt/nfs1/home/yamamoto-hiroto/research/vertebrae_saka/Sakaguchi_file/YOLO_datasets/vertebrae_fracture/configs/vertebrae_fracture.yaml
+2025-07-17 18:37:08,535 - INFO - YOLOv8モデル初期化: yolov8m.pt
+2025-07-17 18:37:08,536 - INFO - 出力ディレクトリ: runs/train/20250717_183708
+2025-07-17 18:37:36,426 - INFO - YOLOv8モデル学習開始

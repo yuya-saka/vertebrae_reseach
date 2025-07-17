@@ -1,5 +1,5 @@
 # Vertebrae Fracture Detection Dataset
-path: /mnt/nfs1/home/yamamoto-hiroto/research/vertebrae_saka/Sakaguchi_file/│
+path: /mnt/nfs1/home/yamamoto-hiroto/research/vertebrae_saka/Sakaguchi_file/YOLO_datasets/vertebrae_fracture
 train: train/images
 val: val/images
 test: test/images

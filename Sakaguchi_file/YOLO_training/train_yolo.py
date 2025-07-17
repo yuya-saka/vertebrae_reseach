@@ -11,6 +11,7 @@ YOLOv8を使用した椎体骨折検出モデルの学習スクリプト
 使用方法:
     python train_yolo.py --data_config /path/to/config.yaml --epochs 100
 """
+#CUDA_VISIBLE_DEVICES=0 python Sakaguchi_file/YOLO_training/train_yolo.py --data_config Sakaguchi_file/YOLO_datasets/vertebrae_fracture/configs/vertebrae_fracture.yaml --model_size yolov8m.pt --epochs 50 --batch_size 16  
 
 import argparse
 import yaml
@@ -71,7 +72,7 @@ class VertebralFractureYOLO:
             logger.error(f"設定ファイル読み込みエラー: {e}")
             raise
     
-    def setup_wandb(self, project_name: str = "vertebrae-fracture-yolo"):
+    def setup_wandb(self, project_name: str = "vertebrae-fracture-axial-1"):
         """Weights & Biases実験管理の設定"""
         try:
             wandb.init(
