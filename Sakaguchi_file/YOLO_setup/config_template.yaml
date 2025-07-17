@@ -1,0 +1,20 @@
+# Vertebrae Fracture Detection Dataset Configuration
+path: /mnt/nfs1/home/yamamoto-hiroto/research/vertebrae_saka/Sakaguchi_file/YOLO_datasets/vertebrae_fracture
+train: train/images
+val: val/images
+test: test/images
+
+# Classes
+nc: 1  # number of classes
+names: ['fracture']  # class names
+
+# Training parameters
+epochs: 100
+batch_size: 16
+img_size: 640
+lr0: 0.01
+weight_decay: 0.0005
+
+# Model settings
+model_size: yolov8m.pt
+device: cuda  # or cpu

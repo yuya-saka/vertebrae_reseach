@@ -1,0 +1,9 @@
+# Vertebrae Fracture Detection Dataset
+path: /mnt/nfs1/home/yamamoto-hiroto/research/vertebrae_saka/Sakaguchi_file/│
+train: train/images
+val: val/images
+test: test/images
+
+# Classes
+nc: 1  # number of classes
+names: ['fracture']  # class names
